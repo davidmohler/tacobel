@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "id": "t1", "name": "Classic Taco", "description": "Beef, lettuce, cheese", "price": 3.5 },
+    { "id": "t2", "name": "Chicken Taco", "description": "Grilled chicken, salsa", "price": 3.75 },
+    { "id": "t3", "name": "Veggie Taco", "description": "Beans, avocado, corn", "price": 3.25 },
+    { "id": "b1", "name": "Burrito", "description": "Rice, beans, choice of meat", "price": 7.5 }
+  ]
+}
