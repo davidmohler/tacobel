@@ -1,0 +1,68 @@
+{
+  "0b48343d-12a2-40bc-904f-53a899f7be20": {
+    "id": "0b48343d-12a2-40bc-904f-53a899f7be20",
+    "items": [
+      {
+        "item_id": "t1",
+        "name": "Classic Taco",
+        "price": 3.5,
+        "qty": 1
+      },
+      {
+        "item_id": "t2",
+        "name": "Chicken Taco",
+        "price": 3.75,
+        "qty": 1
+      }
+    ],
+    "total": 7.25,
+    "status": "paid",
+    "createdAt": "2026-01-28T20:52:11.548Z"
+  },
+  "a75a6da4-3f4c-47df-8a7f-7181cf3a5240": {
+    "id": "a75a6da4-3f4c-47df-8a7f-7181cf3a5240",
+    "items": [
+      {
+        "item_id": "b6f56394-3b86-4a5d-96c2-7c757760e849",
+        "name": "Cruncy Boorito Rap",
+        "price": 100,
+        "qty": 2
+      },
+      {
+        "item_id": "4ef4fd10-b5f6-4fec-b998-dc6c4e060623",
+        "name": "Cool stuff",
+        "price": 4.25,
+        "qty": 1
+      }
+    ],
+    "total": 204.25,
+    "status": "paid",
+    "createdAt": "2026-01-28T20:58:42.018Z"
+  },
+  "8cabed3d-6a1c-44e9-8ffb-1770db3edf98": {
+    "id": "8cabed3d-6a1c-44e9-8ffb-1770db3edf98",
+    "items": [
+      {
+        "item_id": "b6f56394-3b86-4a5d-96c2-7c757760e849",
+        "name": "Cruncy Boorito Rap",
+        "price": 100,
+        "qty": 1
+      },
+      {
+        "item_id": "3d66b50a-5594-4bfc-89ed-c171eccafb73",
+        "name": "Salad",
+        "price": 4.99,
+        "qty": 1
+      },
+      {
+        "item_id": "ce041f5b-5601-4838-8b1d-4798876c7b02",
+        "name": "Carnitas Taco",
+        "price": 4.25,
+        "qty": 1
+      }
+    ],
+    "total": 109.24,
+    "status": "paid",
+    "createdAt": "2026-02-18T20:48:11.466Z"
+  }
+}

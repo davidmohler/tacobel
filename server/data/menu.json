@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "ce041f5b-5601-4838-8b1d-4798876c7b02",
+      "name": "Carnitas Taco",
+      "description": "Slow-cooked pork, onions, cilantro",
+      "price": 4.25
+    },
+    {
+      "id": "4ef4fd10-b5f6-4fec-b998-dc6c4e060623",
+      "name": "Cool stuff",
+      "description": "Slow-cooked pork, onions, cilantro",
+      "price": 4.25
+    },
+    {
+      "id": "b6f56394-3b86-4a5d-96c2-7c757760e849",
+      "name": "Cruncy Boorito Rap",
+      "description": "Slow-cooked pork, onions, cilantro, and scares",
+      "price": 100
+    },
+    {
+      "id": "3d66b50a-5594-4bfc-89ed-c171eccafb73",
+      "name": "Salad",
+      "description": "tasty",
+      "price": 4.99
+    },
+    {
+      "id": "6326a27c-346a-4f78-af1d-aee218ed6a41",
+      "name": "Green Sauce",
+      "description": "",
+      "price": 1.09,
+      "image": "https://i5.walmartimages.com/seo/UBF-TRUCK-Cilantro-Garlic-Green-Sauce-Salsa-Verde-Real-Cilantro-Garlic-Great-Meats-Salads-Teque-os-Empanadas-Hamburgers-More-Dips-Dressings-Venezuela_cfbb362c-2f99-4102-9169-abe1e7f7e3fb.9b72b0cfc921dcc20cc53921a30129a9.jpeg"
+    },
+    {
+      "id": "8312c10d-c572-4491-b2cb-2dfd8a3cd2c8",
+      "name": "Gracesons secret recipe",
+      "description": "",
+      "price": 1000000000,
+      "image": ""
+    },
+    {
+      "id": "5999ef0a-31f2-4fb2-8ba5-d5ce6ea2910f",
+      "name": "iced tea",
+      "description": "",
+      "price": 35,
+      "image": ""
+    }
+  ]
+}

@@ -4,8 +4,11 @@ import Order from './components/Order'
 import Hours from './components/Hours'
 
 export default function App() {
+  // API base used by frontend to call the backend server
+  const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:4000'
   const [view, setView] = useState('menu')
   const [cart, setCart] = useState([])
+  const [darkMode, setDarkMode] = useState(false)
 
   const addToCart = (item) => {
     setCart((prev) => {
@@ -24,8 +27,9 @@ export default function App() {
   const clearCart = () => setCart([])
 
   return (
-    <div className="app">
+    <div className={`app ${darkMode ? 'dark-mode' : ''}`}>
       <header className="header">
+        <div className="logo">🌮</div>
         <h1>Taco Bel</h1>
         <nav className="nav">
           <button onClick={() => setView('menu')}>Menu</button>
@@ -34,10 +38,15 @@ export default function App() {
         </nav>
       </header>
       <main className="container">
-        {view === 'menu' && <Menu onAdd={addToCart} />}
-        {view === 'order' && <Order cart={cart} updateQty={updateQty} clearCart={clearCart} />}
+        {view === 'menu' && <Menu apiBase={API_BASE} onAdd={addToCart} />}
+        {view === 'order' && <Order apiBase={API_BASE} cart={cart} updateQty={updateQty} clearCart={clearCart} />}
         {view === 'hours' && <Hours />}
       </main>
+      <footer className="footer">
+        <button onClick={() => setDarkMode(!darkMode)}>
+          {darkMode ? '☀️ Light Mode' : '🌙 Dark Mode'}
+        </button>
+      </footer>
     </div>
   )
 }
